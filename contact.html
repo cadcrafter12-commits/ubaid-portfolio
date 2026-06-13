@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Ubaid Al Baraka Drafting Studio</title>
+  <meta name="description" content="Contact Ubaid Al Baraka Drafting Studio for architectural drafting, BIM modeling, and drawing set services.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Ubaid Al Baraka Drafting Studio home">
+      <span class="brand-mark">UA</span>
+      <span>
+        <strong>Ubaid Al Baraka</strong>
+        <small>Drafting Studio</small>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" id="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h1>Request drafting support for your next architectural project.</h1>
+        </div>
+        <p>Share the project type, drawing scope, available files, preferred deadline, and required deliverable formats.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-panel">
+          <p class="section-kicker">Project details</p>
+          <h2>Tell the studio what you need drafted.</h2>
+          <p>Include sketches, PDFs, redlines, dimensions, reference images, or existing CAD/Revit files when available.</p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="https://www.fiverr.com/" target="_blank" rel="noreferrer">Hire on Fiverr</a>
+            <a class="btn btn-secondary dark" href="mailto:cadcrafter12@gmail.com">Email Studio</a>
+          </div>
+          <ul class="contact-list">
+            <li><strong>Email</strong><a href="mailto:cadcrafter12@gmail.com">cadcrafter12@gmail.com</a></li>
+            <li><strong>Services</strong><span>CAD drafting, Revit modeling, drawing sets</span></li>
+            <li><strong>Deliverables</strong><span>DWG, RVT, PDF, JPG, PNG</span></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" data-contact-form>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="form-row">
+            <label for="service">Service</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option>AutoCAD Drafting</option>
+              <option>Revit Modeling</option>
+              <option>Floor Plans</option>
+              <option>Elevations</option>
+              <option>Sections</option>
+              <option>Site Plans</option>
+              <option>Architectural Drawing Sets</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="message">Project Brief</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+          <button class="btn btn-primary form-button" type="submit">Send Message</button>
+          <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html">
+          <span class="brand-mark">UA</span>
+          <span>
+            <strong>Ubaid Al Baraka</strong>
+            <small>Drafting Studio</small>
+          </span>
+        </a>
+        <p>Professional drafting and BIM documentation for architectural projects.</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h2>Services</h2>
+        <a href="services.html">AutoCAD Drafting</a>
+        <a href="services.html">Revit Modeling</a>
+        <a href="services.html">Drawing Sets</a>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <a href="mailto:cadcrafter12@gmail.com">cadcrafter12@gmail.com</a>
+        <a href="https://www.fiverr.com/" target="_blank" rel="noreferrer">Fiverr Profile</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year></span> Ubaid Al Baraka Drafting Studio. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
